@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/a1c5865a-84fb-4e79-9e63-10b1fa1f6c9e)
+
 ### Preparing for Windows 11: A Step-by-Step Guide
 
 Transitioning from Legacy BIOS to UEFI is a crucial step in modernizing your system and unlocking features such as Secure Boot, TPM 2.0, and compatibility with Windows 11. If you find yourself lagging behind on this migration, as I did, this blog outlines how I successfully converted my disk from MBR (Master Boot Record) to GPT (GUID Partition Table) and enabled UEFI without losing any data. I have documented the entire process, including the tools I used, the commands I executed, and the valuable lessons I learned along the way.
