@@ -43,6 +43,13 @@ Before conversion, I confirmed my disk layout to ensure it met the requirements 
 1. Open Command Prompt as an administrator.
 2. Run the following commands to check the disk layout.
 
+```bash
+diskpart
+list disk
+select disk [disk number]
+list partition
+```
+
 I confirmed the following:
 
 - The target disk had no more than three primary partitions.
