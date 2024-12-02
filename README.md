@@ -26,11 +26,4 @@ This guide summarizes the steps taken to transition from **Legacy BIOS** to **UE
 
 ---
 
-## Results
-- System now boots in **UEFI mode** with **Secure Boot** and **TPM 2.0** enabled.
-- Disk successfully converted to **GPT** without data loss.
-- Passed Windows 11 compatibility check and upgraded successfully.
-
----
-
 For detailed instructions, check the full guide in this repository.
