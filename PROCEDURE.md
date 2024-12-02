@@ -49,6 +49,7 @@ list disk
 select disk [disk number]
 list partition
 ```
+![image](https://github.com/user-attachments/assets/604fab92-9239-4312-9a0a-d2a02e5c0d52)
 
 I confirmed the following:
 
@@ -77,6 +78,8 @@ mbr2gpt /convert /disk:[disk number]
 
 ```
 
+![mbr2gpt result](https://github.com/user-attachments/assets/08137415-9a7f-431f-9599-3613c9c34a67)
+
 The output confirmed success, indicating that:
 
 - The EFI System Partition was created.
@@ -85,7 +88,7 @@ The output confirmed success, indicating that:
 
 ### Result
 
-After running MBR2GPT, my disk was converted to GPT successfully, without any data loss. The tool also created a new EFI System Partition, which is necessary for UEFI boot..
+After successfully converting my disk to GPT using MBR2GPT, I did not experience any data loss. The tool also created a new EFI System Partition, which is essential for UEFI booting. However, I encountered an issue with WinRE, which I will explain how I resolved below.
 
 ### Step 3: Configure UEFI in BIOS
 
