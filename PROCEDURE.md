@@ -86,9 +86,9 @@ After the disk conversion, I restarted my system and accessed the BIOS settings 
 2. Navigate to **Advanced > Settings > Boot**.
 3. Change the boot mode to **UEFI Only** (previously set to Legacy+UEFI).
     
-    ![[Reference Image](https://appuals.com/msi-z370-gaming-pro-carbon-motherboard-review/) ](https://prod-files-secure.s3.us-west-2.amazonaws.com/c50b480f-5501-4712-810c-1953ba81d366/a243ae7e-64e1-43ed-933c-0c559e7c8286/image.png)
-    
-    [Reference Image](https://appuals.com/msi-z370-gaming-pro-carbon-motherboard-review/) 
+    ![image](https://github.com/user-attachments/assets/e8d583a9-fc0b-41b3-9b99-f91f8b729b12)
+
+    [Reference Image Source](https://appuals.com/msi-z370-gaming-pro-carbon-motherboard-review/) 
     
 4. Ensure UEFI: Hard Disk is set as the first boot option.
 5. Save the changes and reboot.
@@ -100,9 +100,9 @@ Once UEFI was active, I enabled Secure Boot and TPM 2.0 for Windows 11 compatibi
 1. In the BIOS Settings, navigate to **Advanced > Settings > Security > Trusted Computing**.
 2. Select **Security Device Support** and set it to **Enable**.
     
-    ![[Reference Image](https://www.msi.com/blog/How-to-Enable-TPM-on-MSI-Motherboards-Featuring-TPM-2-0)](https://prod-files-secure.s3.us-west-2.amazonaws.com/c50b480f-5501-4712-810c-1953ba81d366/1201dfce-2ba1-4e72-b0cf-e18f094798b8/image.png)
-    
-    [Reference Image](https://www.msi.com/blog/How-to-Enable-TPM-on-MSI-Motherboards-Featuring-TPM-2-0)
+    ![image 1](https://github.com/user-attachments/assets/2aab996c-3ef2-4b04-bcee-c9bf4f637ee6)
+
+    [Reference Image Source](https://www.msi.com/blog/How-to-Enable-TPM-on-MSI-Motherboards-Featuring-TPM-2-0)
     
 3. Set **TPM Device Selection** to **PTT (Platform Trust Technology)** for Intel-based systems 
 4. Set **TPM Device Selection** to **AMD CPU fTPM** for AMD-based systems
@@ -160,7 +160,7 @@ After completing these steps, I verified the following:
 
 I also confirmed that my system passed the Windows 11 compatibility check.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c50b480f-5501-4712-810c-1953ba81d366/0538441b-9f55-45d0-84c3-0f41e4759ec3/image.png)
+![image 2](https://github.com/user-attachments/assets/65cd53d8-9d32-4313-bbce-7cfeace91e7a)
 
 ### Step 6: Install Windows 11 Using the Installation Assistant
 
@@ -169,7 +169,7 @@ To upgrade to Windows 11, I used the official Windows 11 Installation Assistant:
 1. **Download the Installation Assistant** from the Windows 11 Download page.
 2. **Run the Installation Assistant:** Launched the tool and followed the on-screen instructions to initiate the upgrade.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c50b480f-5501-4712-810c-1953ba81d366/a4166e60-df83-4cbb-8f8e-4ab91572d051/image.png)
+![image 3](https://github.com/user-attachments/assets/53ec63e3-c5ee-41bd-8e66-16803302c594)
 
 **Installation Process:**
 The tool downloaded the necessary files and upgraded my system while preserving my files and applications. It should take 30-60 minutes to complete.
@@ -177,7 +177,7 @@ The tool downloaded the necessary files and upgraded my system while preserving 
 **Post-Installation Verification:**
 Check the Windows version by navigating to **Settings > System > About,** and ensure that Windows 11 has been installed successfully and is operating smoothly.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/c50b480f-5501-4712-810c-1953ba81d366/578a4a76-5bec-4c57-a25a-e45fdc8210c7/image.png)
+![image 4](https://github.com/user-attachments/assets/813cbd35-fe96-49cf-9819-859dc2af1895)
 
 ### Lessons Learned
 
