@@ -26,4 +26,4 @@ This guide summarizes the steps taken to transition from **Legacy BIOS** to **UE
 
 ---
 
-For detailed instructions, check the full guide in this repository.
+For detailed instructions, check the full [guide](https://github.com/jalinmayberry/Win10_to_Win11/blob/main/PROCEDURE.md) in this repository.
