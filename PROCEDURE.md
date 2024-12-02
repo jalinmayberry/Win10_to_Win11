@@ -31,7 +31,7 @@ My system was initially set up in Legacy BIOS mode with an MBR disk. Since UEFI 
 - A Windows Recovery USB (optional for troubleshooting).
 
 **Backup:**
-Although MBR2GPT is non-destructive, I would create a full backup of my important files before proceeding.
+Although MBR2GPT is non-destructive, I would create a full backup of important files before proceeding.
 
 **NOTE**: BIOS configurations will be configured on an MSI Z370 Series Board so utilize equivalent references as you must.
 
